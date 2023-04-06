@@ -1,0 +1,11 @@
+Model Information:
+* title:	Future A.I Soldier
+* source:	https://sketchfab.com/3d-models/future-ai-soldier-f97c9b3c9dcb45cdbe7258d3ba73f0c5
+* author:	#3D $Resource$ (https://sketchfab.com/lopuh22721)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Future A.I Soldier" (https://sketchfab.com/3d-models/future-ai-soldier-f97c9b3c9dcb45cdbe7258d3ba73f0c5) by #3D $Resource$ (https://sketchfab.com/lopuh22721) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

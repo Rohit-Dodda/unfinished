@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prompt&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  transition-timing-function: ease-in-out; /* Set the timing function to ease-in-out */
+  font-family: "Poppins", sans-serif;
+  background: #0b0b09;
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  background-color: linear-gradient(
+    to bottom,
+    #ff4500,
+    #ff8c00
+  ); /* Set the scrollbar background color to black */
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #551717; /* Set the scrollbar thumb color to black */
+  border-radius: 10px; /* Add some border radius to the thumb */
+}
+
+::selection {
+  background-color: #470909;
+  border-radius: 20px;
+}
+
+.login-btn:hover {
+  -webkit-box-shadow: -0.5px 11.5px 18px -2px #7f0b0b;
+  -moz-box-shadow: -0.5px 11.5px 18px -2px #7f0b0b;
+  box-shadow: -0.5px 11.5px 18px -2px #7f0b0b;
+}
+
+.signup-btn:hover {
+  -webkit-box-shadow: -0.5px 11.5px 18px -2px #d16e22;
+  -moz-box-shadow: -0.5px 11.5px 18px -2px #d16e22;
+  box-shadow: -0.5px 11.5px 18px -2px #753f15;
+}
+
+.ai-grad {
+  background: #682323;
+  background: linear-gradient(to right, #340f0f 0%, #ff7a7a 50%, #cf1512 69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+
+.neura-grad {
+  background: linear-gradient(to right, #c31432, #240b36);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+
+}
+
+.tools-grad {
+  background: linear-gradient(to right, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+
+
+.resources-grad {
+  background: linear-gradient(to right, #333333, #dd1818);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+.ai-grad-two {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+
+.has-grad {
+  background: #959595;
+  background: linear-gradient(
+    to right,
+    #9f2727 0%,
+    #9b5f0b 46%,
+    #8a2626 50%,
+    #a85a16 53%,
+    #bf3030 76%,
+    #fa780e 87%,
+    #1b1b1b 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+
+.arrived-grad {
+  background: #ffb76b;
+  background: linear-gradient(
+    to right,
+    #ffad55 0%,
+    #d93131 30%,
+    #ff0a0a 60%,
+    #ff810a 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 3s ease infinite;
+}
+
+.get-started-shadow {
+  -webkit-box-shadow: -0.5px 6px 26.5px 2px #ce1a1a;
+  -moz-box-shadow: -0.5px 6px 26.5px 2px #ce1a1a;
+  box-shadow: -0.5px 6px 26.5px 2px #ce1a1a;
+}
+
+.get-start-btn:hover {
+  -webkit-box-shadow: -0.5px 6px 26.5px 2px #bd5627;
+  -moz-box-shadow: -0.5px 6px 26.5px 2px #bd5627;
+  box-shadow: -0.5px 6px 26.5px 2px #bd5627;
+}
+
+@keyframes move-gradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.hero-text-grad {
+  background: linear-gradient(
+    to right,
+    #333333 0%,
+    #dd1818 30%,
+    #333333 60%,
+    #dd1818 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 6s ease infinite;
+}
+
+.nira-grad {
+  background: linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: move-gradient 6s ease infinite;
+}
+
+/* .hero-shadow {
+  -webkit-box-shadow: inset 0px 13px 163px 18px rgba(227,77,77,1);
+  -moz-box-shadow: inset 0px 13px 163px 18px rgba(227,77,77,1);
+  box-shadow: inset  0px 13px 163px 18px rgba(227,77,77,1);
+  border-radius: 40px;
+} */
+
+.designation-comp {
+  background: #F85032;
+  background: linear-gradient(to right, #fe8c00 0%, #f83600 50%, #fe8c00 51%, #f83600 71%, #fe8c00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-name-comp {
+ background: linear-gradient(to right, rgb(234, 88, 12), rgb(249, 115, 22));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-shadow: 3px 3px 21px rgba(128, 23, 0, 1),0px 1px 25px rgba(87, 125, 7, 1);
+}
+
+.text-testi {
+  background: linear-gradient(to bottom, #706868, #e74c3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-grad {
+  background: linear-gradient(to left, #000000, #250502);
+
+}
+
+.bg-google-btn {
+  background: linear-gradient(to left, #141E30, #243B55);
+}
+
+.bg-twitter-btn {
+  background: linear-gradient(to left, #36D1DC, #5B86E5)
+}
+
+
+.bg-apple-btn {
+  background: linear-gradient(to left, #000000, #434343)
+}
+
+.bg-yahoo-btn {
+  background: linear-gradient(to right, rgb(233, 213, 255), rgb(192, 132, 252), rgb(107, 33, 168))
+}
+.neura {
+  background-image: linear-gradient(to right, #ec1919, #f3e7e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  position: relative;
+  display: inline-block;
+  animation: chase 3s linear infinite;
+  background-size: 200% auto;
+  position: relative;
+}
+
+.neura:hover span {
+  animation: jump-up 0.7s ease forwards;
+}
+
+.neura span {
+  display: inline-block;
+  transform: translateY(0);
+  animation: none;
+}
+
+.neura span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.neura span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.neura span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.neura span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.neura span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.hover\:rotate-360:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes jump-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.rotate {
+  animation: rotation 17s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes chase {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.drop-shad {
+  -webkit-box-shadow: -1px 4px 17px 0px rgba(204,33,33,1);
+-moz-box-shadow: -1px 4px 17px 0px rgba(204,33,33,1);
+box-shadow: -1px 4px 17px 0px rgba(204,33,33,1);
+}
+.spinner {
+  position: relative;
+  width: 22.4px;
+  height: 22.4px;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: spinner-b4c8mmmd 0.5s backwards,
+    spinner-49opz7md 1.25s 0.5s infinite ease;
+  border: 5.6px solid #ab3125;
+  border-radius: 50%;
+  box-shadow: 0 -33.6px 0 -5.6px #862108;
+  position: absolute;
+}
+
+.spinner::after {
+  animation-delay: 0s, 1.25s;
+}
+
+@keyframes spinner-b4c8mmmd {
+  from {
+    box-shadow: 0 0 0 -5.6px #ad2513;
+  }
+}
+
+@keyframes spinner-49opz7md {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-blur-code {
+  background: rgba(115, 16, 16, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
